@@ -1,0 +1,7 @@
+A Histogram of Curvature scale was used to classify leaf shapes; by determining how convex or concave each position on the image is. 
+
+This curvature shows the varying curvature values for an image when measuring with circles of different radii.
+
+Leaves of the same kind typically show similar curvature graphs, so these curvature values were combined with a K nearest neighbors classifier in order to group similar images together and classify the leaves by type.
+
+The classifier was able to classify leaf types with an accuracy of 88%
