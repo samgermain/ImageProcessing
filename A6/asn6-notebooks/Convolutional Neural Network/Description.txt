@@ -1,0 +1,9 @@
+A convolutional neural network model was designed using the Python module Keras. The purpose of the model was to differentiate between pictures of cats and pictures of dogs.
+
+After designing the model and training it on a collection dog and cat images, the accuracy of model's prediction during training(in green), as well as the accuracy of the model on a set of validation images(in blue) were plotted against the number of epochs the model ran, meaning the number of times the dataset was passed through the model.
+
+Other than a few spikes, the arc of the validation accuracy largely resembled that of the training accuracy, showing that the model could be applied to new datasets and that it was not strongly overfit to the set of training images.
+
+The second graph plots the "validation loss function accuracy"  and "training loss function value" against the number of epochs, showing that penalties applied to incorrect classification followed similar trends.
+
+The model was then run on a new set of test images, and was able to classify the images with an 78% accuracy rate.
